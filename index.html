@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch A Sketch</title>
+
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <p id="size_info">Size: </p>
+
+  <div class="secundary_content">
+    <h1>ETCH A SKETCH</h1>
+    <p>Options</p>
+    <button id="clear" onclick="clear_surface()">  Clear </button>
+    <button id="erase" onclick="color_mode(4)">  Eraser </button>
+    <div class="surface_size_tittle">Surface Size</div>
+    <div id="range_size"><input type="range"  name="rango" min="1" max="81" step="2" value="16"> </div>
+
+    <p>Colors</p>
+    <button id="normal_mode" onclick="color_mode(1)">  Pick </button>
+    <button id="rainbow" onclick="color_mode(3)">  Rainbow </button>
+    <button id="gray_scale" onclick="color_mode(2)">  Gray Scale </button>
+    <label id="test_wrapper"> <input id="color_pick" type="color" value="#000000"/></label>
+
+
+  </div>
+
+  <div class="main_content">
+
+    <div id="square">
+
+    </div>
+
+  </div>
+
+
+  <script src="index.js"></script>
+
+</body>
+</html>
