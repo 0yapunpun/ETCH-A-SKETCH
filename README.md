@@ -1,6 +1,18 @@
 # ETCH-A-SKETCH
 
-Primer pryecto de las ruta de aprendizaje de JavaScript. 
-Me tomo alrededor de 3 días. Fue bastante satisfactorio comprobar la relativa facilidad que tuvo, aunque me tomo tiempo pude hacer todo por mi cuenta si tener que consultar el 
-codigo de algúna persona que haya realizado el ejercicio. 
-Realizando este retome el rito que perdi durante las últimas dos semanas. Espero poder mantenerlo.
+[Live Demo](https://rawcdn.githack.com/0yapunpun/ETCH-A-SKETCH/0101af01ba00839471802d1507846566ae32bdce/index.html)
+
+## Description
+This page it's a digital reproduction of the well know toy for kids where it's possible to create draws in a white canvas just passing over the mouse.
+  
+## Features
+* Change canvas size
+* Erase specific parts
+* Draw with a picked color
+* Draw with random colors
+* Draw in gray scale
+
+## Built With
+* Vanilla JavaScript
+* HTML
+* CSS
